@@ -225,7 +225,7 @@ Chạy `BenchmarkRunner` trên 20 QA pairs. Ghi lại kết quả:
 **3 câu hỏi scored thấp nhất:**
 1. ID: QA-013 | Score: 0.79 | Failure type: None
 2. ID: QA-006 | Score: 0.82 | Failure type: None
-3. ID: QA-012 | Score: 0.83 | Failure type: None
+3. ID: QA-015 | Score: 0.83 | Failure type: None
 
 **Benchmark note:** Kết quả này dùng retrieval-only baseline: agent demo chỉ trả lời bằng context trong golden dataset, không nhìn expected answer. Pass rate 100% nghĩa là tất cả câu vượt ngưỡng tối thiểu 0.5, nhưng relevance và completeness vẫn dao động nên không phải điểm tuyệt đối giả.
 
@@ -398,5 +398,5 @@ See `reflection.md`
 - [x] `evaluate_context_recall` + `evaluate_context_precision` implemented (Task 2b)
 - [x] Exercise 3.5 completed: đo Context Recall/Precision + reranking before/after
 - [x] `exercises.md` completed: golden dataset 20 QA (stratified) + benchmark results + rubric
-- [ ] `reflection.md` written: 3 failures with 5 Whys + improvement log + CI/CD strategy
+- [x] `reflection.md` written: 3 failures with 5 Whys + improvement log + CI/CD strategy
 - [x] `solution/solution.py` copied
